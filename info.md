@@ -35,9 +35,9 @@ permalink: /info
     {%- endif -%}
 {%- endfor -%}
 
-# Welcome
+# Bienvenid@
 
-Bienvenido a [{{ site.data.social.twitch }}](https://twitch.tv/{{ site.data.social.twitch }}) stream.
+Bienvenid@ al stream de [{{ site.data.social.twitch }}](https://twitch.tv/{{ site.data.social.twitch }}).
 El stream usa este mod
 [Twitch Toolkit](https://steamcommunity.com/sharedfiles/filedetails/?id=1718525787) para proporcionar un
 experiencia interactiva. Hay muchas cosas en el mod que pueden parecer complicadas incluso para los más experimentados.
