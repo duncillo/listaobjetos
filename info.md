@@ -76,11 +76,6 @@ You'll always get a new lootbox everyday.
 
 <br/>
 ## Que es el karma?
-
-Karma is a system in the mod that tries to limit the amount of negative events a viewer can purchase at
-one time. This system works by directly modifying that amount of coins viewers get everytime the mod
-awards coins. This means that the lower you karma is, the lower your coin gain is. The hope is that
-negative events get spread out more so the colony can recover.
 Karma es un sistema en el mod que intenta limitar la cantidad de eventos negativos que un espectador puede comprar en
 una vez. Este sistema funciona modificando directamente la cantidad de monedas que los espectadores obtienen cada vez que el mod otorga monedas.
 Esto significa que cuanto menor sea su karma, menor será su ganancia de monedas. El objetivo es que
