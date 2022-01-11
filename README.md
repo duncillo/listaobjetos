@@ -1,4 +1,6 @@
-# Item List
+# Repositorio para la lista de objetos
 
-Please refer to the [documentation](https://sirrandoo.github.io/toolkit-utils/itemlist)
-for instructions on how to set up your item list.
+## Mantainer
+ https://www.twitch.tv/cestt
+
+
