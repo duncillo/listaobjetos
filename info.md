@@ -37,32 +37,32 @@ permalink: /info
 
 # Welcome
 
-Welcome to [{{ site.data.social.twitch }}](https://twitch.tv/{{ site.data.social.twitch }})'s stream.
-This stream uses the mod
-[Twitch Toolkit](https://steamcommunity.com/sharedfiles/filedetails/?id=1718525787) to provide an
-interactive experience. There's a lot to the mod that may seem complicated to even more experienced
-users, but this short guide will help you get the hang of things.
+Bienvenido a [{{ site.data.social.twitch }}](https://twitch.tv/{{ site.data.social.twitch }}) stream.
+El stream usa este mod
+[Twitch Toolkit](https://steamcommunity.com/sharedfiles/filedetails/?id=1718525787) para proporcionar un
+experiencia interactiva. Hay muchas cosas en el mod que pueden parecer complicadas incluso para los más experimentados.
+usuarios, pero esta breve guía le ayudará a familiarizarse con las cosas.
 
-## What is Twitch Toolkit?
+## Que es Twitch Toolkit?
 
-Twitch Toolkit is a mod by hodlhodl that allows viewers to affect the game in a number of ways. The
-most prominent is its [store]({{- "/" | relative_url -}}), which allows you to purchase a number of
-things the streamer curated. Depending on the purchase, these things appear in-game or affect the
-game in some way. Another way viewers can interact with the game is through the mod's polls. The
-choices in these polls depend heavily on what's enabled in the mod.
+Twitch Toolkit es un mod de hodlhodl que permite a los espectadores afectar el juego de varias maneras. 
+La más destacada es su [store]({{- "/" | relative_url -}}), que le permite comprar una serie de
+cosas que el streamer seleccionó. Dependiendo de la compra, estas cosas aparecen en el juego o afectan el
+juego de alguna manera. Otra forma en que los espectadores pueden interactuar con el juego es a través de las encuestas del mod.
+Las opciones en estas encuestas dependen en gran medida de lo que esté habilitado en el mod.
 
-## What Are Coins?
+## Que son los Coins?
 
-Coins are the mod's currency. You can view your balance by using the `{{ bal }}` command. 
+Las monedas son la moneda del mod. Puede ver su saldo utilizando el comando `{{ bal }}`. 
 
 {% if utils == true %}
-You'll notice the balance command may have some new emojis. If that's the case, here is an overview
-of the emojis as follows:
+Notarás que el comando de equilibrio puede tener algunos emojis nuevos. Si ese es el caso, aquí hay una descripción general
+de los emojis de la siguiente manera:
 
-- 💰 represents the amount of coins you current have.
-- ⚖ represents your current karma.
-- 📈 represents the amount of coins you gain everytime the mod awards coins.
-- 📉 represents the amount of coins you lose everytime to mod awards coins.
+- 💰 representa el numero de coins que tienes.
+- ⚖ representa tu karma.
+- 📈 representa la cantidad de monedas que ganas cada vez que el mod otorga monedas.
+- 📉 representa la cantidad de monedas que pierdes cada vez que el mod quita monedas.
 
 {% endif %}
 
@@ -75,21 +75,25 @@ You'll always get a new lootbox everyday.
 
 
 <br/>
-## What is Karma?
+## Que es el karma?
 
 Karma is a system in the mod that tries to limit the amount of negative events a viewer can purchase at
 one time. This system works by directly modifying that amount of coins viewers get everytime the mod
 awards coins. This means that the lower you karma is, the lower your coin gain is. The hope is that
 negative events get spread out more so the colony can recover.
+Karma es un sistema en el mod que intenta limitar la cantidad de eventos negativos que un espectador puede comprar en
+una vez. Este sistema funciona modificando directamente la cantidad de monedas que los espectadores obtienen cada vez que el mod otorga monedas.
+Esto significa que cuanto menor sea su karma, menor será su ganancia de monedas. El objetivo es que
+los eventos negativos se esparzan más para que la colonia pueda recuperarse.
 
-## How Do I Use Twitch Toolkit?
+## ¿Cómo uso el kit de herramientas de Twitch??
 
-You can use Twitch Toolkit in a number of ways -- the most prominent way is through its
-[commands]({{- "/commands" | relative_url -}}). The more important command is the `{{- buy -}}`
-command, which is the mods entry point into purchasing things from the store. Other notable commands
-are the `!mypawn` commands, which allow you see various information about your pawn. We won't cover
-every command here, but most commands should generally be self-descriptive or have a description of
-what they do on the [commands]({{- "/commands" | relative_url -}}) page.
+Puede usar Twitch Toolkit de varias maneras: la forma más destacada es a través de su
+[commands]({{- "/commands" | relative_url -}}). El comando más importante es `{{- buy -}}`
+, que es el punto de entrada de mods para comprar cosas de la tienda. Otros comandos notables
+son los comandos `!mypawn`, que le permiten ver información diversa sobre su personaje. No cubriremos
+todos los comandos aquí, pero la mayoría de los comandos generalmente deben ser autodescriptivos o tener una descripción de
+lo que hacen en la [commands]({{- "/commands" | relative_url -}}) pagina.
 
 
 {%- if puppeteer -%}
