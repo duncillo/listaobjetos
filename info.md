@@ -81,7 +81,7 @@ una vez. Este sistema funciona modificando directamente la cantidad de monedas q
 Esto significa que cuanto menor sea su karma, menor será su ganancia de monedas. El objetivo es que
 los eventos negativos se esparzan más para que la colonia pueda recuperarse.
 
-## ¿Cómo uso el kit de herramientas de Twitch??
+## ¿Cómo uso el kit de herramientas de Twitch?
 
 Puede usar Twitch Toolkit de varias maneras: la forma más destacada es a través de su
 [commands]({{- "/commands" | relative_url -}}). El comando más importante es `{{- buy -}}`
