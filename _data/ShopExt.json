@@ -1,7 +1,7 @@
 ﻿{
   "traits": [
     {
-      "description": "Timmy le encanta la sensación de sentirse desnudo. Puede llevar ropa pero se siente mejor sin ella.",
+      "description": "Timmy enjoys the feeling of freedom that comes from being nude. he can handle clothing, but will be happier without it.",
       "stats": [
 
       ],
@@ -22,7 +22,7 @@
 
         ]
       },
-      "defName": "Nudista",
+      "defName": "Nudist",
       "name": "nudist",
       "canAdd": true,
       "canRemove": true,
